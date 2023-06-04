@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #efefef;
+}
+section.banner-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.text-block {
+    padding-left: 54%;
+    padding-top: 150px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    position: relative;
+    background-color: #fff !important;
+}
+
+.text-block::before {
+    content: "";
+    position: absolute;
+    background-image: url(/asstes/images/putin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.text-block h2 {
+    font-size: 50px;
+    margin: 0 0 25px !important;
+}
+
+.text-block p {
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.text-block a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 20px;
+    background: #91bb3e;
+    background: -moz-linear-gradient(top, #91bb3e 0%, #569434 100%);
+    background: -webkit-linear-gradient(top, #91bb3e 0%, #569434 100%);
+    background: linear-gradient(to bottom, #91bb3e 0%, #569434 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#91bb3e', endColorstr='#569434', GradientType=0);
+    display: inline-block;
+    color: #fff;
+    margin-top: 25px;
+    border-radius: 3px;
+}
